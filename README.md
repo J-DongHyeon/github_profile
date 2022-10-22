@@ -25,7 +25,7 @@
 
 :wave: ME :wave: <br> <br>
 <a href="https://j-dongHyeon.github.io"><img src="https://img.shields.io/badge/GitHub.io-181717?style=plastic&logo=GitHub&logoColor=white"/></a>
-<a href="https://velog.io/@ddosang"><img src="https://img.shields.io/badge/WordPress-21759B?style=plastic&logo=WordPress&logoColor=white"/></a>
+<a href="http://144.24.89.254:8000/"><img src="https://img.shields.io/badge/WordPress-21759B?style=plastic&logo=WordPress&logoColor=white"/></a>
 
 
 
