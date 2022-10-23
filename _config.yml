@@ -6,8 +6,7 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: 성장하는 엔지니어
-장동현 입니다.
+name: 
 title: Your job title
 email: Your email (optional)
 # email_title: Email (Email title override)
