@@ -52,6 +52,12 @@ github_username: J-DongHyeon
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/me.jpg
 about_content: | # this will include new lines to allow paragraphs
+
+  - aboud_title: About Me
+    layout: text
+    content: 
+      - layout: right
+        
   :closed_book:  늘 배우려는 자세
     - 자발적으로 진행한 다양한 프로젝트
   test
