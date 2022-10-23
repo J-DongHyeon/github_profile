@@ -54,14 +54,22 @@ about_profile_image: images/me.jpg
 about_content: | # this will include new lines to allow paragraphs
   :closed_book: <mark> 늘 배우려는 자세</mark>
     - **자발적으로 진행한 다양한 프로젝트**
+
   .
+
   .
+
   .
+
   :bulb: <mark> 기본에 충실하는 자세</mark>
     - **꾸준한 백준 알고리즘 문제 풀이**
+
   .
+
   .
+  
   .
+
   :trophy: <mark> Awards</mark>
     - **2022.05 교내 캡스톤 경진대회 은상**
 
