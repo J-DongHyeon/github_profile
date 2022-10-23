@@ -6,7 +6,7 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: 성장하는 엔지니어<br> 장동현 입니다
+name: 성장하는 엔지니어 장동현 입니다
 title: Robotics Engineering
 email: jdh3876@naver.com
 # email_title: Email (Email title override)
@@ -52,7 +52,7 @@ github_username: J-DongHyeon
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/me.jpg
 about_content: | # this will include new lines to allow paragraphs
-  늘 배우려는 자세
+  :blush: 늘 배우려는 자세
     - 자발적으로 진행한 다양한 프로젝트
 
   기본에 충실하는 자세
@@ -132,6 +132,7 @@ sass:
 
 plugins:
  - jekyll-seo-tag
+ - jemoji
 
 exclude : [
   "Gemfile",
