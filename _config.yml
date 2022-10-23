@@ -100,15 +100,8 @@ content:
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
         title: The Truck Platooning Using Autonomous Driving
-        link: J-DongHyeon/Autonomous_Vehicle
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        link: https://github.com/J-DongHyeon/Autonomous_Vehicle
+        link_text: Project Link
         quote: >
           Short overview of the project (optional)
         description: | # this will include new lines to allow paragraphs
