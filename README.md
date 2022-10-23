@@ -35,7 +35,7 @@
 <br><br>
 
 :wave: ME :wave: <br> <br>
-<a href="https://j-dongHyeon.github.io"><img src="https://img.shields.io/badge/GitHub.io-181717?style=plastic&logo=GitHub&logoColor=white"/></a>
+<a href="https://j-dongHyeon.github.io"><img src="https://img.shields.io/badge/GitHub.io-222222?style=plastic&logo=GitHub Pages&logoColor=white"/></a>
 
 
   
