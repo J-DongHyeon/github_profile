@@ -54,20 +54,19 @@ about_profile_image: images/me.jpg
 about_content: | # this will include new lines to allow paragraphs
   :closed_book:  늘 배우려는 자세
     - 자발적으로 진행한 다양한 프로젝트
+  test
+
+
 
 
   :blub:  기본에 충실하는 자세
     - 꾸준한 백준 알고리즘 문제 풀이
   
 
-  Awards
+
+  :trophy:  Awards
     - 2022.05 교내 캡스톤 경진대회 은상
 
-  Projects
-    - 2020.12 OLED game project
-    - 2021.05 Face conversion project
-    - 2021.12 Air Mouse project
-    - 2022.03 Autonomous Vehicle project
 
 content:
   - title: Projects # Title for the section
