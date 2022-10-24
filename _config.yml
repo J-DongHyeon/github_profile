@@ -99,11 +99,13 @@ content:
         quote: >
           Turtle bot을 활용한 화물차 자율 군집 주행
         description: | # this will include new lines to allow paragraphs
-          - Step 1. Car 1 은 가진의 카메라를 켜고 raw image data를 Remote PC로 보낸다. ![alt text](images/project1_1.PNG "Trees")
+          - Step 1. Car 1 은 가진의 카메라를 켜고 raw image data를 Remote PC로 보낸다.
 
           - Step 2. Remote PC로부터 차선 인식 후 계산된 모터 제어 값을 Subscribe 하여 자율 주행한다.
 
           - Step 3. Car 2 는 카메라를 off 하고 여러 센서 데이터 값만을 이용해 가벼운 프로세스로 Car1에 의존하여 자율 군집주행 한다.
+          
+          ![alt text](images/project1_1.PNG)  
   - title: Experience
     layout: list
     content:
