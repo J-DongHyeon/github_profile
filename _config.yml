@@ -89,7 +89,7 @@ content:
                       # other value (or no value) means no border will be displayed
         title: The Truck Platooning Using Autonomous Driving
         link: https://github.com/J-DongHyeon/Autonomous_Vehicle
-        link_text: Project Link
+        link_text: github.com/J-DongHyeon
         quote: >
           Turtle bot을 활용한 화물차 자율 군집 주행
         description: | # this will include new lines to allow paragraphs
@@ -102,7 +102,21 @@ content:
           ![alt text](images/project1_1.PNG)  
 
           ---
-          ![alt text](images/project1_2.PNG)  ![alt text](images/project1_3.PNG) 
+          Car 2 의 군집주행
+
+            - 1. 출발 전 Car 1 과 Car 2 는 일진석상에 위치한다.
+
+            - 2. Car 2 의 LIDAR sensor 를 이용하여 차간 거기를 측정한다.
+
+            - 3. Car 1 이 출발하는 순간 Car 2 는 차간 거리만큼 직진한다.
+
+            - 4. 출발과 동시에 Car 1 의 Gyro sensor data 를 Buffer 에 저장한다.
+
+            - 5. Step 3 완료 후, Remote PC는 Car 1 과 Car 2 간의 Yaw 각을 비교하고, PD 제어를 통해 Car 2 에게 모터 제어 값을 Publish 한다.
+
+            - 6. Car 2 의 LIDAR sensor 를 이용하여, 주행 중 차간 거리가 너무 가까우면 감속한다.
+
+          ---
           - **개발 기간** *2022.03 ~ 2022.6*
 
           - **개발 인원** *3명*
