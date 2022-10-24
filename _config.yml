@@ -57,19 +57,13 @@ about_content: | # this will include new lines to allow paragraphs
 
   .
 
-  .
-
   :bulb: <mark> 기본에 충실하는 자세</mark>
     - **꾸준한 백준 알고리즘 문제 풀이**
-
-  .
   
   .
 
   :trophy: <mark> Awards</mark>
     - **2022.05 교내 캡스톤 경진대회 은상**
-
-  .
 
   .
 
@@ -103,9 +97,11 @@ content:
         link: https://github.com/J-DongHyeon/Autonomous_Vehicle
         link_text: Project Link
         quote: >
-          Short overview of the project (optional)
+          Turtle bot을 활용한 화물차 자율 군집 주행
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          Step 1. Car 1 은 가진의 카메라를 켜고 raw image data를 Remote PC로 보낸다.
+          Step 2. Remote PC로부터 차선 인식 후 계산된 모터 제어 값을 Subscribe 하여 자율 주행한다.
+          Step 3. Car 2 는 카메라를 off 하고 여러 센서 데이터 값만을 이용해 가벼운 프로세스로 Car1에 의존하여 자율 군집주행 한다.
   - title: Experience
     layout: list
     content:
