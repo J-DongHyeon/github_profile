@@ -102,7 +102,7 @@ content:
           ![alt text](images/project1_1.PNG)  
 
           ---
-          ![alt text](images/project1_2.PNG)  ![alt text] (images/project1_3.PNG) 
+          ![alt text](images/project1_2.PNG)  ![alt text](images/project1_3.PNG) 
           - **개발 기간** *2022.03 ~ 2022.6*
 
           - **개발 인원** *3명*
@@ -110,6 +110,18 @@ content:
           - **나의 역할** 
             - *LIDAR, Gyro sensor 데이터를 활용하여 모바일 로봇 PD 제어*
             - *Car 2 모바일 로봇의 자율 군집주행 구현*
+
+        title: Air Mouse
+        link: https://github.com/J-DongHyeon/Air_Mouse
+        link_text: Project Link
+        quote: >
+          공중에서 손목 움직임 만으로 제어하는 Air Mouse
+        description: | # this will include new lines to allow paragraphs
+          - MPU 6050 sensor 로부터 손목의 X축, Z축 (상하, 좌우) 각속도 데이터를 받고 이에 비례하여 마우스 움직임을 제어한다.
+
+          - 버튼을 3개 부착하여 각각 좌클릭, 더블클릭, 우클릭 기능을 하도록 한다.
+
+          - Potentiometer 로 가변저항을 조절함으로써 마우스의 움직임 감도 조절이 가능하도록 한다.
   - title: Experience
     layout: list
     content:
