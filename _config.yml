@@ -162,6 +162,11 @@ content:
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
+      - :snowboarder: Snowboarding : 고등학교 시절부터 지금까지 매년 겨울마다 스키장에서 Snowboarding 취미를 즐기고 있습니다. Snowboarding 의 매력은 하강할 때 온몸으로 느껴지는 속도감의 짜릿함과, 날로 늘어가는 실력을 통해 얻는 뿌듯함입니다. :blush:
+
+        ![alt text](images/hobby2.jpg)
+
+
       taaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaest ![alt text](images/hobby2.jpg)
 
 
