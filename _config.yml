@@ -78,7 +78,7 @@ about_content: | # this will include new lines to allow paragraphs
       - *ROS 환경에서 모바일 로봇의 PD제어를 SW적으로 구현*
       ---
     - **Arduino Board 활용 능력**
-      - *Arduino Board에 기본적이 sensor, 장치들을 연결하여 구동 가능*
+      - *Arduino Board에 기본적인 sensor, 장치들을 연결하여 구동 가능*
       ---
 content:
   - title: Projects # Title for the section
