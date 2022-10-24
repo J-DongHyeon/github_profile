@@ -106,6 +106,15 @@ content:
           - Step 3. Car 2 는 카메라를 off 하고 여러 센서 데이터 값만을 이용해 가벼운 프로세스로 Car1에 의존하여 자율 군집주행 한다.
           
           ![alt text](images/project1_1.PNG)  
+
+          ---
+          - **개발 기간** *2022.03 ~ 2022.6*
+
+          - **개발 인원** *3명*
+
+          - **나의 역할** 
+            - *LIDAR, Gyro sensor 데이터를 활용하여 모바일 로봇 PD 제어*
+            - *Car 2 모바일 로봇의 자율 군집주행 구현*
   - title: Experience
     layout: list
     content:
