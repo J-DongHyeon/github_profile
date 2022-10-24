@@ -102,7 +102,7 @@ content:
           ![alt text](images/project1_1.PNG)  
 
           ---
-          Car 2 의 군집주행
+          **Car 2 의 군집주행**
 
             - 1. 출발 전 Car 1 과 Car 2 는 일진석상에 위치한다.
 
@@ -116,7 +116,11 @@ content:
 
             - 6. Car 2 의 LIDAR sensor 를 이용하여, 주행 중 차간 거리가 너무 가까우면 감속한다.
 
+          ![alt text](images/project1_2.PNG)  
+
           ---
+          ![alt text](images/project1_3.PNG)  
+
           - **개발 기간** *2022.03 ~ 2022.6*
 
           - **개발 인원** *3명*
