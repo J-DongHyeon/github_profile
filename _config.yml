@@ -70,13 +70,13 @@ about_content: | # this will include new lines to allow paragraphs
   :raising_hand:  <mark> 어떠한 능력을 가지고 있을까?</mark>
     - **리눅스 ubuntu 활용 능력**
       - *리눅스 ubuntu 환경에서 팀 프로젝트 제작 경험*
-    ---
+
     - **ROS 활용 및 모바일 로봇 개발 경험**
       - *ROS 환경에서 Remote PC와 모바일 로봇 (Raspberry Pi) 간의 데이터 송수신 및 처리 경험*
-    ---
+
     - **PD 제어의 이해 및 구현**
       - *ROS 환경에서 모바일 로봇의 PD제어를 SW적으로 구현*
-    ---
+
     - **Arduino Board 활용 능력**
       - *Arduino Board에 기본적이 sensor, 장치들을 연결하여 구동 가능*
 
