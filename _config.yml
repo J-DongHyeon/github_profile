@@ -93,11 +93,11 @@ content:
         quote: >
           Turtle bot을 활용한 화물차 자율 군집 주행
         description: | # this will include new lines to allow paragraphs
-          - Step 1. Car 1 은 가진의 카메라를 켜고 raw image data를 Remote PC로 보낸다.
+          - Step 1. Car 1 은 자신의 카메라를 켜고 raw image data 를 Remote PC 로 보낸다.
 
-          - Step 2. Remote PC로부터 차선 인식 후 계산된 모터 제어 값을 Subscribe 하여 자율 주행한다.
+          - Step 2. Remote PC 로부터 차선 인식 후 계산된 모터 제어 값을 Subscribe 하여 자율 주행한다.
 
-          - Step 3. Car 2 는 카메라를 off 하고 여러 센서 데이터 값만을 이용해 가벼운 프로세스로 Car1에 의존하여 자율 군집주행 한다.
+          - Step 3. Car 2 는 카메라를 off 하고 여러 센서 데이터 값만을 이용해 가벼운 프로세스로 Car 1 에 의존하여 자율 군집주행 한다.
           
           ![alt text](images/project1_1.PNG)  
 
@@ -106,7 +106,7 @@ content:
 
             - *1. 출발 전 Car 1 과 Car 2 는 일진석상에 위치한다.*
 
-            - *2. Car 2 의 LIDAR sensor 를 이용하여 차간 거기를 측정한다.*
+            - *2. Car 2 의 LIDAR sensor 를 이용하여 차간 거리를 측정한다.*
 
             - *3. Car 1 이 출발하는 순간 Car 2 는 차간 거리만큼 직진한다.*
 
@@ -121,9 +121,9 @@ content:
           ---
           ![alt text](images/project1_3.PNG)  
 
-          - **개발 기간** *2022.03 ~ 2022.6*
+          - **개발 기간**: *2022.03 ~ 2022.06*
 
-          - **개발 인원** *3명*
+          - **개발 인원**: *3명*
 
           - **나의 역할** 
             - *LIDAR, Gyro sensor 데이터를 활용하여 모바일 로봇 PD 제어*
@@ -155,7 +155,7 @@ content:
 
           프로젝트 기능 구현 및 프로그래밍에 대한 전문성을 높히고자 *자료구조*, *알고리즘* 강의를 수강하였고, 다양한 알고리즘 유형 문제풀이를 해 나가고 있습니다. 
          
-          우연한 기회로 졸업작품 제작 시 ROS 기반의 모바일 로봇을 지원받아 로봇 개발을 진행하였습니다. 많은 개발자들이 만들어 놓은 패키지와 ROS 에서 제공하는 개발 Tool 을 이용하여 고수준의 Application 을 개발할 수 있는 환경이 마련되어 있다는 것에 큰 흥미를 느꼈습니다.
+          졸업작품 제작 시 좋은 기회로 ROS 기반의 모바일 로봇을 지원받아 로봇 개발을 진행하였습니다. 많은 개발자들이 만들어 놓은 패키지와 ROS 에서 제공하는 개발 Tool 을 이용하여 고수준의 Application 을 개발할 수 있는 환경이 마련되어 있다는 것에 큰 흥미를 느꼈습니다.
           
           현재는 로봇 제어에 관심을 가지고 공부하고 있으며, 이에 전문성을 더하고자 'ROBOTIS' 에서 제공하는 온라인 ROS 강의를 수강하고 있습니다 !
 
