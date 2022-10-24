@@ -162,12 +162,20 @@ content:
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      - :snowboarder: Snowboarding : 고등학교 시절부터 지금까지 매년 겨울마다 스키장에서 Snowboarding 취미를 즐기고 있습니다. Snowboarding 의 매력은 하강할 때 온몸으로 느껴지는 속도감의 짜릿함과, 날로 늘어가는 실력을 통해 얻는 뿌듯함입니다. :blush:
+      - :snowboarder: Snowboarding
+
+        고등학교 시절부터 지금까지 매년 겨울마다 스키장에서 Snowboarding 취미를 즐기고 있습니다.
+
+        Snowboarding 의 매력은 하강할 때 온몸으로 느껴지는 속도감의 짜릿함과, 날로 늘어가는 실력을 통해 얻는 뿌듯함입니다. :blush:
 
         ![alt text](images/hobby2.jpg)
 
+      - :bicyclist: Bicycle
 
-      taaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaest ![alt text](images/hobby2.jpg)
+        날씨가 좋은 주말에 자주 싸이클을 타러 나갑니다.
+
+        땀을 흘리며 자연 풍경을 보면서 사이클을 타다보면, 복잡한 생각들은 사라지고 자신을 조금 더 객관적으로 볼 수 있는 시야가 생깁니다. :sum_with_face:
+
 
 
 # Footer
