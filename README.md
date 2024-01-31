@@ -1,3 +1,4 @@
+<!--
 <div align=center>
 
 ![header](https://capsule-render.vercel.app/api?type=waving&color=0:EEFF00,100:a82da8&height=300&section=header&text=J-DongHyeon's%20Github&animation=twinkling&fontColor=223434&fontSize=60&fontAlign=50&rotate=5)
@@ -43,7 +44,7 @@
 ![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:EEFF00,100:a82da8&height=200&section=footer)
   
 </div>
-
+-->
 
 
 
