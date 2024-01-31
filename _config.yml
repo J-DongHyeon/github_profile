@@ -1,224 +1,224 @@
 
-```
-# Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
-# Content configuration version
-version: 2
+# # Site
+# repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+# # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
-# Personal info
-name: 성장하는 엔지니어 장동현 입니다
-title: Robotics Engineering
-email: robotics3876@gmail.com
-# email_title: Email (Email title override)
-#phone: Your phone number (optional)
-# phone_title: Phone (Phone title override)
-#website: Your website (eg. https://google.com)(optional)
-# website_title: Web (Website title override)
+# # Content configuration version
+# version: 2
 
-# Dark Mode (true/false/never)
-darkmode: false
+# # Personal info
+# name: 성장하는 엔지니어 장동현 입니다
+# title: Robotics Engineering
+# email: robotics3876@gmail.com
+# # email_title: Email (Email title override)
+# #phone: Your phone number (optional)
+# # phone_title: Phone (Phone title override)
+# #website: Your website (eg. https://google.com)(optional)
+# # website_title: Web (Website title override)
 
-# Social links
-#twitter_username: jekyllrb
-github_username: J-DongHyeon
-#stackoverflow_username: "00000001"
-#dribbble_username: jekyll
-#facebook_username: jekyll
-#flickr_username: jekyll
-#instagram_username: jekyll
-#linkedin_username: jekyll
-#xing_username: jekyll
-#pinterest_username: jekyll
-#youtube_username: jekyll
-#orcid_username: 0000-0000-0000-0000
-#googlescholar_username: D847cGsAAAAJ
+# # Dark Mode (true/false/never)
+# darkmode: false
 
-# Additional icon links
-additional_links:
-- title: Portfolio PDF
-  icon: fab fa-readme
-  url: https://www.miricanvas.com/v/11ilc5x
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
+# # Social links
+# #twitter_username: jekyllrb
+# github_username: J-DongHyeon
+# #stackoverflow_username: "00000001"
+# #dribbble_username: jekyll
+# #facebook_username: jekyll
+# #flickr_username: jekyll
+# #instagram_username: jekyll
+# #linkedin_username: jekyll
+# #xing_username: jekyll
+# #pinterest_username: jekyll
+# #youtube_username: jekyll
+# #orcid_username: 0000-0000-0000-0000
+# #googlescholar_username: D847cGsAAAAJ
 
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
+# # Additional icon links
+# additional_links:
+# - title: Portfolio PDF
+#   icon: fab fa-readme
+#   url: https://www.miricanvas.com/v/11ilc5x
+# # - title: another link
+# #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+# #   url: Link url (eg. https://google.com)
 
-# About Section
-# about_title: About Me (Use this to override about section title)
-about_profile_image: images/me.jpg
-about_content: | # this will include new lines to allow paragraphs
-  :closed_book: <mark> 늘 배우려는 자세</mark>
-    - **자발적으로 진행한 다양한 프로젝트**
+# # Google Analytics and Tag Manager
+# # Using more than one of these may cause issues with reporting
+# # gtm: "GTM-0000000"
+# # gtag: "UA-00000000-0"
+# # google_analytics: "UA-00000000-0"
 
-  .
+# # About Section
+# # about_title: About Me (Use this to override about section title)
+# about_profile_image: images/me.jpg
+# about_content: | # this will include new lines to allow paragraphs
+#   :closed_book: <mark> 늘 배우려는 자세</mark>
+#     - **자발적으로 진행한 다양한 프로젝트**
 
-  :bulb: <mark> 기본에 충실하는 자세</mark>
-    - **꾸준한 백준 알고리즘 문제 풀이**
+#   .
+
+#   :bulb: <mark> 기본에 충실하는 자세</mark>
+#     - **꾸준한 백준 알고리즘 문제 풀이**
   
-  .
+#   .
 
-  :trophy: <mark> Awards</mark>
-    - **2022.05 교내 캡스톤 경진대회 은상**
+#   :trophy: <mark> Awards</mark>
+#     - **2022.05 교내 캡스톤 경진대회 은상**
 
-  .
+#   .
 
-  :raising_hand:  <mark> 어떠한 능력을 가지고 있을까?</mark>
-    - **리눅스 ubuntu 활용 능력**
-      - *리눅스 ubuntu 환경에서 팀 프로젝트 제작 경험*
-      ---
-    - **ROS 활용 및 모바일 로봇 개발 경험**
-      - *ROS 환경에서 Remote PC와 모바일 로봇 (Raspberry Pi) 간의 데이터 송수신 및 처리 경험*
-      ---
-    - **PD 제어의 이해 및 구현**
-      - *ROS 환경에서 모바일 로봇의 PD제어를 SW적으로 구현*
-      ---
-    - **Arduino Board 활용 능력**
-      - *Arduino Board에 기본적인 sensor, 장치들을 연결하여 구동 가능*
-      ---
-content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: The Truck Platooning Using Autonomous Driving
-        link: https://github.com/J-DongHyeon/Autonomous_Vehicle
-        link_text: github.com/J-DongHyeon
-        quote: >
-          Turtle bot을 활용한 화물차 자율 군집 주행
-        description: | # this will include new lines to allow paragraphs
-          - Step 1. Car 1 은 자신의 카메라를 켜고 raw image data 를 Remote PC 로 보낸다.
+#   :raising_hand:  <mark> 어떠한 능력을 가지고 있을까?</mark>
+#     - **리눅스 ubuntu 활용 능력**
+#       - *리눅스 ubuntu 환경에서 팀 프로젝트 제작 경험*
+#       ---
+#     - **ROS 활용 및 모바일 로봇 개발 경험**
+#       - *ROS 환경에서 Remote PC와 모바일 로봇 (Raspberry Pi) 간의 데이터 송수신 및 처리 경험*
+#       ---
+#     - **PD 제어의 이해 및 구현**
+#       - *ROS 환경에서 모바일 로봇의 PD제어를 SW적으로 구현*
+#       ---
+#     - **Arduino Board 활용 능력**
+#       - *Arduino Board에 기본적인 sensor, 장치들을 연결하여 구동 가능*
+#       ---
+# content:
+#   - title: Projects # Title for the section
+#     layout: list # Type of content section (list/text)
+#     content:
+#       - layout: left
+#         border: weak  # Value of `weak` will display a weak border below this item. # Any 
+#                       # other value (or no value) means no border will be displayed
+#         title: The Truck Platooning Using Autonomous Driving
+#         link: https://github.com/J-DongHyeon/Autonomous_Vehicle
+#         link_text: github.com/J-DongHyeon
+#         quote: >
+#           Turtle bot을 활용한 화물차 자율 군집 주행
+#         description: | # this will include new lines to allow paragraphs
+#           - Step 1. Car 1 은 자신의 카메라를 켜고 raw image data 를 Remote PC 로 보낸다.
 
-          - Step 2. Remote PC 로부터 차선 인식 후 계산된 모터 제어 값을 Subscribe 하여 자율 주행한다.
+#           - Step 2. Remote PC 로부터 차선 인식 후 계산된 모터 제어 값을 Subscribe 하여 자율 주행한다.
 
-          - Step 3. Car 2 는 카메라를 off 하고 여러 센서 데이터 값만을 이용해 가벼운 프로세스로 Car 1 에 의존하여 자율 군집주행 한다.
+#           - Step 3. Car 2 는 카메라를 off 하고 여러 센서 데이터 값만을 이용해 가벼운 프로세스로 Car 1 에 의존하여 자율 군집주행 한다.
           
-          ![alt text](images/project1_1.PNG)  
+#           ![alt text](images/project1_1.PNG)  
 
-          ---
-          **Car 2 의 군집주행**
+#           ---
+#           **Car 2 의 군집주행**
 
-            - *1. 출발 전 Car 1 과 Car 2 는 일직선상에 위치한다.*
+#             - *1. 출발 전 Car 1 과 Car 2 는 일직선상에 위치한다.*
 
-            - *2. Car 2 의 LIDAR sensor 를 이용하여 차간 거리를 측정한다.*
+#             - *2. Car 2 의 LIDAR sensor 를 이용하여 차간 거리를 측정한다.*
 
-            - *3. Car 1 이 출발하는 순간 Car 2 는 차간 거리만큼 직진한다.*
+#             - *3. Car 1 이 출발하는 순간 Car 2 는 차간 거리만큼 직진한다.*
 
-            - *4. 출발과 동시에 Car 1 의 Gyro sensor data 를 Buffer 에 저장한다.*
+#             - *4. 출발과 동시에 Car 1 의 Gyro sensor data 를 Buffer 에 저장한다.*
 
-            - *5. Step 3 완료 후, Remote PC는 Car 1 과 Car 2 간의 Yaw 각을 비교하고, PD 제어를 통해 Car 2 에게 모터 제어 값을 Publish 한다.*
+#             - *5. Step 3 완료 후, Remote PC는 Car 1 과 Car 2 간의 Yaw 각을 비교하고, PD 제어를 통해 Car 2 에게 모터 제어 값을 Publish 한다.*
 
-            - *6. Car 2 의 LIDAR sensor 를 이용하여, 주행 중 차간 거리가 너무 가까우면 감속한다.*
+#             - *6. Car 2 의 LIDAR sensor 를 이용하여, 주행 중 차간 거리가 너무 가까우면 감속한다.*
 
-          ![alt text](images/project1_2.PNG)  
+#           ![alt text](images/project1_2.PNG)  
 
-          ---
-          ![alt text](images/project1_3.PNG)  
+#           ---
+#           ![alt text](images/project1_3.PNG)  
 
-          - **개발 기간**: *2022.03 ~ 2022.06*
+#           - **개발 기간**: *2022.03 ~ 2022.06*
 
-          - **개발 인원**: *3명*
+#           - **개발 인원**: *3명*
 
-          - **나의 역할** 
-            - *LIDAR, Gyro sensor 데이터를 활용하여 모바일 로봇 PD 제어*
-            - *Car 2 모바일 로봇의 자율 군집주행 구현*
+#           - **나의 역할** 
+#             - *LIDAR, Gyro sensor 데이터를 활용하여 모바일 로봇 PD 제어*
+#             - *Car 2 모바일 로봇의 자율 군집주행 구현*
 
-#  - title: Experience
-#    layout: list
-#    content:
-#      - layout: right
-#        title: Company name
-#        sub_title: Job title
-#        caption: Date Range (eg. November 2016 - present)
-#        link: Link to company (optional)
-#        quote: >
-#          Short description of the company (optional)
-#        description: | # this will include new lines to allow paragraphs
-#          Description of role
-#
-  - title: Education
-    layout: list
-    content:
-      - layout: top-right
-        title: Hallym University
-        sub_title: Electronic Engineering
-        caption: 2017 - present
-#        quote: >
-        description: | # this will include new lines to allow paragraphs
-          전자공학을 전공하며 *공학수학 기초*, *지능 제어*  전공 수업을 수강하면서 기초적인 공학 수학 지식 및 제어 이론에 대한 개념을 다졌습니다. 이후 *마이크로 컨트롤러 기초*  전공 수업을 듣고 코딩 및 주변 사물을 제어하는 것에 매력을 느껴 Arduino board 를 이용한 여러 개인 프로젝트를 진행하였습니다.
+# #  - title: Experience
+# #    layout: list
+# #    content:
+# #      - layout: right
+# #        title: Company name
+# #        sub_title: Job title
+# #        caption: Date Range (eg. November 2016 - present)
+# #        link: Link to company (optional)
+# #        quote: >
+# #          Short description of the company (optional)
+# #        description: | # this will include new lines to allow paragraphs
+# #          Description of role
+# #
+#   - title: Education
+#     layout: list
+#     content:
+#       - layout: top-right
+#         title: Hallym University
+#         sub_title: Electronic Engineering
+#         caption: 2017 - present
+# #        quote: >
+#         description: | # this will include new lines to allow paragraphs
+#           전자공학을 전공하며 *공학수학 기초*, *지능 제어*  전공 수업을 수강하면서 기초적인 공학 수학 지식 및 제어 이론에 대한 개념을 다졌습니다. 이후 *마이크로 컨트롤러 기초*  전공 수업을 듣고 코딩 및 주변 사물을 제어하는 것에 매력을 느껴 Arduino board 를 이용한 여러 개인 프로젝트를 진행하였습니다.
 
-          프로젝트 기능 구현 및 프로그래밍에 대한 전문성을 높히고자 *자료구조*, *알고리즘* 강의를 수강하였고, 다양한 알고리즘 유형 문제풀이를 해 나가고 있습니다. 
+#           프로젝트 기능 구현 및 프로그래밍에 대한 전문성을 높히고자 *자료구조*, *알고리즘* 강의를 수강하였고, 다양한 알고리즘 유형 문제풀이를 해 나가고 있습니다. 
          
-          졸업작품 제작 시 좋은 기회로 ROS 기반의 모바일 로봇을 지원받아 로봇 개발을 진행하였습니다. 많은 개발자들이 만들어 놓은 패키지와 ROS 에서 제공하는 개발 Tool 을 이용하여 고수준의 Application 을 개발할 수 있는 환경이 마련되어 있다는 것에 큰 흥미를 느꼈습니다.
+#           졸업작품 제작 시 좋은 기회로 ROS 기반의 모바일 로봇을 지원받아 로봇 개발을 진행하였습니다. 많은 개발자들이 만들어 놓은 패키지와 ROS 에서 제공하는 개발 Tool 을 이용하여 고수준의 Application 을 개발할 수 있는 환경이 마련되어 있다는 것에 큰 흥미를 느꼈습니다.
           
-          현재는 로봇 제어에 관심을 가지고 공부하고 있으며, 이에 전문성을 더하고자 'ROBOTIS' 에서 제공하는 온라인 ROS 강의를 수강하고 있습니다 !
+#           현재는 로봇 제어에 관심을 가지고 공부하고 있으며, 이에 전문성을 더하고자 'ROBOTIS' 에서 제공하는 온라인 ROS 강의를 수강하고 있습니다 !
 
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      - :snowboarder: Snowboarding
+#   - title: A Little More About Me
+#     layout: text
+#     content: | # this will include new lines to allow paragraphs
+#       - :snowboarder: Snowboarding
 
-        고등학교 시절부터 지금까지 매년 겨울마다 스키장에서 Snowboarding 취미를 즐기고 있습니다.
+#         고등학교 시절부터 지금까지 매년 겨울마다 스키장에서 Snowboarding 취미를 즐기고 있습니다.
 
-        Snowboarding 의 매력은 하강할 때 온몸으로 느껴지는 속도감의 짜릿함과, 날로 늘어가는 실력을 통해 얻는 뿌듯함입니다. :blush:
+#         Snowboarding 의 매력은 하강할 때 온몸으로 느껴지는 속도감의 짜릿함과, 날로 늘어가는 실력을 통해 얻는 뿌듯함입니다. :blush:
 
-        ![alt text](images/hobby_1.jpg)
+#         ![alt text](images/hobby_1.jpg)
 
-        ---
-      - :bicyclist: Bicycle
+#         ---
+#       - :bicyclist: Bicycle
 
-        날씨가 좋은 주말에 자주 싸이클을 타러 나갑니다.
+#         날씨가 좋은 주말에 자주 싸이클을 타러 나갑니다.
 
-        땀을 흘리며 자연 풍경을 보면서 사이클을 타다보면, 복잡한 생각들은 사라지고 자신을 조금 더 객관적으로 볼 수 있는 시야가 생깁니다. :sun_with_face:
+#         땀을 흘리며 자연 풍경을 보면서 사이클을 타다보면, 복잡한 생각들은 사라지고 자신을 조금 더 객관적으로 볼 수 있는 시야가 생깁니다. :sun_with_face:
 
-        ![alt text](images/hobby_2.jpg)
+#         ![alt text](images/hobby_2.jpg)
 
-        ---
-      - :running: Running
+#         ---
+#       - :running: Running
 
-        꾸준한 체력 관리를 위해 유산소 운동을 자주 합니다.
+#         꾸준한 체력 관리를 위해 유산소 운동을 자주 합니다.
 
-        숨이 턱 끝까지 차오를 때 나의 한계를 넘기는 경험을 해볼 수 있고, 나날이 체력이 늘어가는 것을 보며 굉장한 성취감을 얻을 수 있습니다. :sweat_drops:
+#         숨이 턱 끝까지 차오를 때 나의 한계를 넘기는 경험을 해볼 수 있고, 나날이 체력이 늘어가는 것을 보며 굉장한 성취감을 얻을 수 있습니다. :sweat_drops:
 
-        ![alt text](images/hobby_3.jpg)
+#         ![alt text](images/hobby_3.jpg)
 
 
 
-# Footer
-footer_show_references: true
-# references_title: References on request (Override references text)
+# # Footer
+# footer_show_references: true
+# # references_title: References on request (Override references text)
 
-# Build settings
-# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+# # Build settings
+# # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# # remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
 
-sass:
-  sass_dir: _sass
-  style: compressed
+# sass:
+#   sass_dir: _sass
+#   style: compressed
 
-plugins:
- - jekyll-seo-tag
- - jemoji
+# plugins:
+#  - jekyll-seo-tag
+#  - jemoji
 
-exclude : [
-  "Gemfile",
-  "Gemfile.lock",
-  "node_modules",
-  "vendor/bundle/",
-  "vendor/cache/",
-  "vendor/gems/",
-  "vendor/ruby/",
-  "lib/",
-  "scripts/",
-  "docker-compose.yml",
-  ]
+# exclude : [
+#   "Gemfile",
+#   "Gemfile.lock",
+#   "node_modules",
+#   "vendor/bundle/",
+#   "vendor/cache/",
+#   "vendor/gems/",
+#   "vendor/ruby/",
+#   "lib/",
+#   "scripts/",
+#   "docker-compose.yml",
+#   ]
 
-  ```
+
